@@ -13,7 +13,7 @@ export default class HeadingPost extends Component {
           <div className="leading-tag">TEXTO MAIS RECENTE</div>
           <div className="date-tag">6 de agosto</div>
         </div>
-        <h1 className="heading">O Eclipse: O progresso destruindo mentes</h1>
+        <h1 className="heading">Um guia para iniciantes sobre como destruir a lua</h1>
         <div className="summary">
           O que têm mais valor: um celular novo ou o carinho dos pais? Uma emoção ou a razão? Os instintos
           naturais ou as paixões? O amor de uma pessoa ou um veículo? Todas estas perguntas têm mesma

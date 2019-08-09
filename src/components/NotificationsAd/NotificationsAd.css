@@ -2,6 +2,8 @@
   background: #0000ff;
   padding: 24px;
   border-radius: 4px;
+
+  animation: NotificationsAd-entry 1500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
 }
 
 .NotificationsAd .title {
@@ -27,4 +29,16 @@
   margin: 0;
   background: none;
   color: #ffffff;
+}
+
+@keyframes NotificationsAd-entry {
+  0% {
+    transform: translateY(100%) scale(0.6);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
 }

@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./views/Home/Home";
 // import LoadingDialog from "./views/LoadingDialog/LoadingDialog";
 import SavedDialog from "./views/SavedDialog/SavedDialog";
+import InterludeFooter from "./components/InterludeFooter/InterludeFooter";
 
 interface AppState {
   showNoInternetAd: boolean;
@@ -21,8 +22,6 @@ class App extends Component<{}, AppState> {
     };
   }
 
-  componentDidMount() {}
-
   render() {
     const shouldBlurApp = this.state.showNoInternetAd;
 
@@ -37,6 +36,7 @@ class App extends Component<{}, AppState> {
           <main className="content-container">
             <Home />
           </main>
+          <InterludeFooter />
         </div>
       </div>
     );
