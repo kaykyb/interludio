@@ -4,12 +4,20 @@
   padding: 0px 32px 48px 32px;
 }
 
-.App > .header-container {
+.App .header-container {
   width: 100%;
   margin: 36px 0px 48px 0px;
   height: 36px;
 }
 
-.App > .content-container {
+.App .content-container {
   width: 100%;
+}
+
+.App .content.blurred {
+  filter: blur(6px);
+}
+
+.App > .content {
+  transition: filter 300ms 0ms ease;
 }

@@ -16,10 +16,6 @@
   transition: filter 1s 0s ease;
 }
 
-.HeadingPost:hover > .heading-image {
-  filter: none;
-}
-
 .HeadingPost > .tags-container {
   display: flex;
   flex-direction: row;

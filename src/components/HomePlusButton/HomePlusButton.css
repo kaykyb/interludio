@@ -1,0 +1,19 @@
+.HomePlusButton {
+  padding: 52px 0px;
+  text-align: center;
+}
+
+.HomePlusButton .load-more {
+  text-decoration: none;
+  font-weight: 600;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  color: #0000ff;
+
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  outline: none;
+}

@@ -1,0 +1,29 @@
+.InterludeFooter {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 12px;
+
+  padding-top: 36px;
+}
+
+.InterludeFooter .logo {
+  height: 32px;
+}
+
+.InterludeFooter .title {
+  margin-top: 4px;
+}
+
+.InterludeFooter .content {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.InterludeFooter a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: dotted underline rgba(255, 255, 255, 0.8);
+}
+
+.InterludeFooter a:hover {
+  color: #ffffff;
+  text-decoration: dotted underline #ffffff;
+}
